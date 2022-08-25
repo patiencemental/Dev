@@ -30,6 +30,3 @@ Canvas 및 관련 함수들, requestAnimationFrame 함수, 수학 지식 (공의
 - 주의!!
   - requestAnimationFrame()은 1shot 이다 => 만약 애니메이션이 지속되길 원한다면 callback 메서드 내에서 다시 requestAnimationFrame()을 호출해야만 한다!
 - 영상을 보면서 메서드명만 보고 "애니메이션을 그리기 위한 프레임을 브라우저에게 요청한다" 정도로만 이해했었는데 계속 자기 자신을 호출하는 재귀 형태의 의미를 문서를 보면서 인지했다
-
----
-## 기본 로직 정리
